@@ -2,7 +2,6 @@ import powder from '../assets/powder.jpg';
 import bag from '../assets/bag.jpg';
 import Calculator from './Calculator';
 import { TrendIcon, DropBigIcon, ShieldCheckIcon, RecycleIcon } from './Icons';
-import { CONTACT } from '../data';
 
 const BENEFITS = [
   { bg: '#EDE6FB', Icon: TrendIcon, title: 'Higher strength', text: 'Denser packing gives concrete more strength for demanding structures.' },
@@ -35,7 +34,6 @@ export default function Silcon({ onFill, onCalcSend }) {
               <a className="btn btn-primary" href="#contact" onClick={() => onFill(0, 'Please send the specifications and data sheet for Silcon Microsilica. ')}>
                 Request specifications
               </a>
-              <a className="btn btn-line" href={CONTACT.article} rel="noopener">Read about applications</a>
             </div>
           </div>
         </div>

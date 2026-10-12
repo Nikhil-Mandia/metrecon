@@ -96,5 +96,4 @@ export const CONTACT = {
   address: 'Village & P.O. Barakashiara, District Burdwan (near Haldi Bridge), West Bengal 713141',
   instagram: 'https://www.instagram.com/metreconindustries/',
   linkedin: 'https://www.linkedin.com/company/metrecon-industries-private-limited/',
-  article: 'https://metreconindustries.com/applications-of-silcon-microsilica-in-concrete/',
 };

@@ -1,5 +1,4 @@
 import news from '../assets/news.jpg';
-import { CONTACT } from '../data';
 
 export default function CertNews({ onFill }) {
   return (
@@ -27,7 +26,6 @@ export default function CertNews({ onFill }) {
             <span className="date">11 January 2025</span>
             <h3>Applications of Silcon™ Microsilica in concrete</h3>
             <p>Silcon™ Microsilica, also known as silica fume, is a by-product of silicon or ferrosilicon alloy production. Find out where it makes the biggest difference in concrete work.</p>
-            <a className="textlink" href={CONTACT.article} rel="noopener">Read the full article</a>
           </div>
         </article>
       </div>
